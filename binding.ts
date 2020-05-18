@@ -1,6 +1,7 @@
 /**
  * 実行環境を判別する
  * 実行環境ごとの処理をする
+ * Linux, Mac 環境での確認は未完了
  */
 
 const platform: string = Deno.build.os;
